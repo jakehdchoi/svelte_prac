@@ -11,3 +11,9 @@ npm run dev
 
 # default addr
 http://localhost:5000/
+
+# force kill process if port is in use
+# Error: listen EADDRINUSE: address already in use :::35729
+lsof -n -i4TCP:35729
+kill -9 [PID]
+
