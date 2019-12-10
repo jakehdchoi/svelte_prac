@@ -1,0 +1,13 @@
+# pre-init
+npm install -g npx
+
+# init project
+npx degit sveltejs/template svelte-app
+cd svelte-app
+npm install
+
+# run
+npm run dev
+
+# default addr
+http://localhost:5000/
